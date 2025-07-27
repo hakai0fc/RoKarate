@@ -20,5 +20,6 @@ local ENVIO_POR_FRAME = 3355
 RunService.Heartbeat:Connect(function()
     for i = 1, ENVIO_POR_FRAME do
 pullUpRemote:Fire()
+pullUpRemote:Fire()
     end
 end)
