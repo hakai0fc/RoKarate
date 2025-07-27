@@ -20,7 +20,7 @@ local pullUpRemote = BridgeNet.ReferenceBridge("imadumbexploiter3527d36bd7d656f9
 local ENVIO_POR_FRAME = 1550
 RunService.Heartbeat:Connect(function()
     for i = 1, ENVIO_POR_FRAME do
-pullUpRemote:Fire()
-pullUpRemote:Fire()
+    pullUpRemote:Fire()
+    pullUpRemote:Fire()
     end
 end)
