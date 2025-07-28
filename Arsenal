@@ -21,5 +21,6 @@ RunService.Heartbeat:Connect(function()
     for i = 1, ENVIO_POR_FRAME do
         pullUpRemote:Fire()
         pullUpRemote:Fire()
+        pullUpRemote:Fire()
     end
 end) 
